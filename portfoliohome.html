@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- <link rel="shortcut icon" href="../boostrap/instagram.svg" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="emperorjtv.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="portfoliohome.css">
+</head>
+<style>      
+</style>
+<body>
+ <nav id="nav1">
+    <!-- logo -->
+<h1 style="font-family: cursive;">LOGO</h1>
+<div id="navin">
+    <!-- inside nav -->
+<a href="portfoliohome.html" style="text-decoration: none;"><button style="background-color: transparent;border: none;"><h3 style="color: rgba(255, 0, 0, 0.788);">HOME</h3></button></a>
+<a href=""><button style="background-color: transparent;border: none;"><h3>SKILLS</h3></button></a>
+<a href=""><button style="background-color: transparent;border: none;"><h3>SERVICE</h3></button></a>
+<a href=""><button style="background-color: transparent;border: none;"><h3>PROJECTS</h3></button></a>
+<a href=""><button style="background-color: transparent;border: none;"><h3>CONTACT</h3></button></a>
+</div>
+<!-- dark/light mode -->
+<button style="background-color: transparent;border: none;width: 40px;" onclick="darkLight()"><div id="fill"></div></button>
+ </nav>
+ <div id="dart">
+    <!-- light mode button -->
+    <button id="light" onclick="light()"style="margin-left: 10px;background-color: transparent;border: none;">
+    <div style="display: flex;">
+<img src="../boostrap/circle.svg" alt="" style="width: 30px;height: 35px;margin-left: 15px;margin-top: 5px;"><h3 style="margin-bottom: 8px;margin-left: 4px;">Light Mode</h3>
+    </div>
+</button>
+<!-- dark mode button -->
+<button id="dark" onclick="dark()" style="margin-left: 10px;background-color: transparent;border: none;">
+    <div  style="display: flex;">
+        <img src="../boostrap/circle-fill.svg" alt="" style="width: 30px;height: 35px;margin-left: 15px;margin-top: 5px;"><h3 style="margin-bottom: 8px;margin-left: 4px;">Dark Mode</h3>
+    </div>
+</button>
+  </div>
+ <div id="dis">
+    <div>
+        <!-- text transition -->
+<h1 id="bad"></h1>
+<!-- paragraph -->
+<p id="p">
+    Am ambrose, a front-end developer from Nigeria<br>,West-Africa and an aspiring full stack<br> developer and Lawyer</p>
+<button id="start" onclick="git()">GET IN TOUCH</button>
+</div>
+<!-- form dropdown -->
+<div id="form-dropdown">
+    <section style="display: inline-block;margin-left: 16%;">
+   <input type="text" id="name" placeholder="Full Name">
+   <input type="email" placeholder="Email addres" id="email">
+   <input type="comment" placeholder="message" id="comment">
+</section>
+    <button id="hack" onclick="submit()">Submit</button>
+    <button id="cancel" onclick="nostart()"><img src="../boostrap/x-square-fill.svg" alt="" style="width: 57px;height: 37px;margin-top:10px;margin-left: 10px;"></button>
+
+     </div>
+     <!-- my pictute -->
+<div id="pic">
+<img src="../antwan10/green2.png" alt="" style="width: 400px;height: 380px;margin-top: 10px;margin-left: 80px;border-radius: 16px;" id="bic">
+</div>
+ </div>
+ <!-- side nav/icons -->
+ <section id="icons">
+    <ul class="wrapper">
+        <li class="icon facebook">
+          <span class="tooltip">Facebook</span>
+          <span><i class="fa fab fa-facebook-f"></i></span>
+          <img src="../boostrap/facebook.svg" alt="">
+        </li>
+        <li class="icon twitter">
+          <span class="tooltip">Twitter</span>
+          <span><i class="fa fab fa-twitter"></i></span>
+          <img src="../boostrap/twitter.svg" alt="">
+        </li>
+        <li class="icon instagram">
+          <span class="tooltip">Instagram</span>
+          <span><i class="fa fab fa-instagram"></i></span>
+          <img src="../boostrap/instagram.svg" alt="">
+        </li>
+        <li class="icon github">
+          <span class="tooltip">Github</span>
+          <span><i class="fa fab fa-github"></i></span>
+          <img src="../boostrap/google.svg  " alt="">
+        </li>
+        <li class="icon youtube">
+          <span class="tooltip">Youtube</span>
+          <span><i class="fa fab fa-youtube"></i></span>
+          <img src="../boostrap/youtube.svg" alt="">
+        </li>
+      </ul>
+ </section>
+ <!-- whatsapp link -->
+ <a href="https://wa.me/message/KBJ72M4RTG7"><button id="whatsapp"><img src="../boostrap/whatsapp.svg" alt="" style="width: 30px;height: 30px;"></button></a>
+</body>
+</html>
+<script src="portfoliohome.js">
+   
+</script>

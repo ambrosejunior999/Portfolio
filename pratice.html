@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let array = [4,6,-7,1,-90,40,20]
+    for (let index = 0; index < array.length; index++) {
+        console.log(array)
+        
+    }
+//foreach array method
+    let newArray = array.forEach(element => {
+        console.log(element)
+    });
+
+   // map array method
+    let newArray1 = array.map(function(value,index){
+        return value * 2
+    })
+    console.log(newArray1)
+
+    //filter array method
+    let newArray2 = array.filter(function(value,index){
+        return value > 0
+    })
+    console.log(newArray2)
+
+    //reduce array method
+    let newArray3 = array.reduce(function(text,value){
+        return text + value
+    })
+    console.log(newArray3)
+
+    //flatmap array method
+    let newArray4 = array.flatMap(function(value,index){
+return value + 2
+    })
+    console.log(newArray4)
+
+
+</script>
+<script>
+    //array
+    //objects
+    //array methods
+    //string methods
+    //
+</script>
