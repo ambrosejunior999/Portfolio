@@ -99,15 +99,16 @@ function submit() {
     document.getElementById('form-dropdown').style.display = 'none'
     document.getElementById('bic').style.display = 'inherit'
     document.getElementById('hack').style.innerHTML = 'Loading...'
-    localStorage.setItem('Full Name',name)
-    localStorage.setItem('Email Address',email)
-    localStorage.setItem('Message/comment',comment)
-}, 1500);
+    JSON.stringify(window.localStorage.setItem('Full Name',name))
+    JSON.stringify(window.localStorage.setItem('Email Address',email))
+    JSON.stringify(window.localStorage.setItem('Message/comment',comment))
+}, 1000);
 }
 
 
+
 // pic changing onload
-let pics = ['cench1.jfif','cench2.jfif','cench3.jfif','cench4.jfif','cench5.jfif']
+let pics = ['ife1.jpeg','cench2.jfif','cench3.jfif','cench4.jfif','cench5.jfif']
 let index = 0
 window.addEventListener('load', () => {
 var size = pics.length
