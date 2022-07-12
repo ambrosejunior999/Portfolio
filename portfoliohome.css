@@ -266,12 +266,12 @@ font-weight:400;
     }
     #p{
         font-size: 22px;
-        margin-left: 14%;
+        margin-left: 6%;
         font-family: cursive;
         margin-top: 120px;
     }
     #pic{
-        width: 0%;
+        width: fit-content;
         height: 400px;
         margin-left: 220px;
     }
@@ -280,7 +280,7 @@ font-weight:400;
     }
     #start{
         width:170px ;
-        height:45px ;
+        height:45px;
         border:1px solid gold;
         background:linear-gradient(315deg, #ffffff, #d7e1ec,lightblue,grey);
         border-radius: 12px; ;
@@ -289,7 +289,8 @@ font-weight:400;
         margin-left: 10%;
         font-size: 14px;
         font-weight: bold;
-        margin-top: 10px;
+        margin-top: 40px;
+
     }
     #start:hover{
         color: whitesmoke;
@@ -304,7 +305,7 @@ font-weight:400;
         border-radius: 10px;
         display: none;
         position: absolute;
-        margin-left: 745px;
+        margin-left: 765px;
         margin-top: 30px;
         
     }

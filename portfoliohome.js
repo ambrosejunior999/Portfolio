@@ -46,10 +46,12 @@ if(show==0){
 
     document.getElementById('form-dropdown').style.display = 'inherit'   
     document.getElementById('bic').style.display = 'none'
+    document.getElementById('p').style.width = '45%'
     show = 1
 }else if(show == 1){
 document.getElementById('form-dropdown').style.display = 'none'   
     document.getElementById('bic').style.display = 'inherit'
+    document.getElementById('p').style.width = ''
     show = 0
 }
 
