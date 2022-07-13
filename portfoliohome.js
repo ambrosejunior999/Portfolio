@@ -1,5 +1,5 @@
 'use strict mode'
-let textArray = ["Hi there, welcome to my portfolio website", "I'm ambrose","A front-end developer","I love coding"]
+let textArray = ["Hi, welcome to my portfolio website", "I'm ambrose","A front-end developer"]
 let textDisplay = document.getElementById('bad')
 let i = 0
 let move = 0
@@ -46,7 +46,7 @@ if(show==0){
 
     document.getElementById('form-dropdown').style.display = 'inherit'   
     document.getElementById('bic').style.display = 'none'
-    document.getElementById('p').style.width = '45%'
+    document.getElementById('p').innerHTML = ' Am ambrose, a front-end developer from <br> Nigeria,West-Africa and an aspiring full stack developer<br> and Lawyer'
     show = 1
 }else if(show == 1){
 document.getElementById('form-dropdown').style.display = 'none'   
@@ -97,14 +97,16 @@ let comment = document.getElementById('comment').value;
 
   
 function submit() {
-    setTimeout(() => {
-    document.getElementById('form-dropdown').style.display = 'none'
-    document.getElementById('bic').style.display = 'inherit'
-    document.getElementById('hack').style.innerHTML = 'Loading...'
-    JSON.stringify(window.localStorage.setItem('Full Name',name))
-    JSON.stringify(window.localStorage.setItem('Email Address',email))
-    JSON.stringify(window.localStorage.setItem('Message/comment',comment))
-}, 1000);
+    document.getElementById('hack').innerText = 'Loading...'
+    document.getElementById('hack').style.textAlign = 'center'
+   
+    setTimeout(() => { 
+        document.getElementById('form-dropdown').style.display = 'none'
+        document.getElementById('bic').style.display = 'inherit'
+    JSON.parse(window.localStorage.setItem('Full Name',name))
+    JSON.parse(window.localStorage.setItem('Email Address',email))
+    JSON.parse(window.localStorage.setItem('Message/comment',comment))
+}, 3500);
 }
 
 
@@ -117,3 +119,8 @@ var size = pics.length
 var x = Math.floor(size * Math.random())
 document.getElementById('bic').src = pics[x]
 })
+let array = [100,50]
+let newArray = array.reduce(function(text,value){
+    return text - value
+})
+console.log(newArray)

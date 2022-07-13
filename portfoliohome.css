@@ -1,8 +1,65 @@
 html,
 body {
-  background: linear-gradient(315deg, #ffffff, #d7e1ec,gold,rgb(85, 255, 85));
+  background: linear-gradient(315deg, #ffffff81, #d7e1ec9d,gold,rgb(85, 255, 85));
   /* background: linear-gradient(45deg,black,brown,gold,whitesmoke); */
 }
+#skillset{
+  width: 400px;
+  height: 500px;
+  /* border: 1px solid black; */
+  margin-left: 460px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+} 
+#picc{
+  width: 100px;
+  height:100px   ;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin:auto;
+  margin-top: 25px;
+} 
+#html{
+height: 7px;
+width:300px;
+border-radius: 16px;
+border: 1px solid grey;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+margin-left: 50px;
+} 
+#boostrap{
+  height: 7px;
+width:300px;
+border-radius: 16px;
+border: 1px solid grey;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+margin-left: 50px;
+}
+#crypto{
+  height: 7px;
+width:300px;
+border-radius: 16px;
+border: 1px solid grey;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+margin-left: 50px;
+}
+#css{
+  height: 7px;
+width:300px;
+border-radius: 16px;
+border: 1px solid grey;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+margin-left: 50px;
+}  
+#javascript{
+  height: 7px;
+width:300px;
+border-radius: 16px;
+border: 1px solid grey;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+margin-left: 50px;
+} 
 #name{
     height: 35px;
     width: 270px;
@@ -277,6 +334,7 @@ font-weight:400;
     }
     #bic{
         height: 400px;
+  
     }
     #start{
         width:170px ;
@@ -293,10 +351,11 @@ font-weight:400;
 
     }
     #start:hover{
-        color: whitesmoke;
-        background-color: rgb(68, 68, 226);     
-        border: 1px solid rgba(0, 0, 0, 0.452);
-        transition: 0.5s;
+        color: black;
+        /* background: rgb(68, 68, 226);      */
+        /* border: 1px solid rgba(0, 0, 0, 0.452); */
+        background: linear-gradient(315deg,white,yellow,white);
+        transition: 0.7s;
     }
     #form-dropdown{
         width:400px;
@@ -418,7 +477,8 @@ transition: 0.4s;
         }
         #dis{
             width: 100%;
-            height: 500px;
+            height: 350px;
+            position: relative;
         }
         .wrapper .icon {
             width: 30px;
@@ -426,6 +486,8 @@ transition: 0.4s;
         }
         #bad{
             font-size: 32px;
+            width: 480px;
+            position: relative;
         }
         #p{
             font-size:17px ;
@@ -488,9 +550,10 @@ transition: 0.4s;
         
         }
         #dis{
-            width: 100%;
-            margin-right: px;
+            width: 500px;
+            height: 400px;
             display: inline-block;
+            position: relative;
         }
         #form-dropdown{
             margin-right: 150px;
@@ -504,10 +567,15 @@ transition: 0.4s;
         #pic{
             margin-right: 140px;
             margin-top: 20px;
+            width: 500px;
+            margin-right: 100px;
+        }
+        #bic{
+          margin-right: 80px;
         }
         #bad{
             font-size: 29px;
-            width: 100%;
+            width: 500px;
         }
         #icons{
             display: flex;
